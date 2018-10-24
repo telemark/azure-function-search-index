@@ -1,6 +1,6 @@
 {
   "name": "azure-function-search-index",
-  "description": "Text for big five results score",
+  "description": "Azure function for search indexing",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
