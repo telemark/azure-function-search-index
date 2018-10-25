@@ -1,3 +1,8 @@
 {
-  "version": "2.0"
+  "version": "2.0",
+  "serviceBus": {
+    "maxConcurrentCalls": 1,
+    "prefetchCount": 100,
+    "autoRenewTimeout": "00:05:00"
+  }
 }
