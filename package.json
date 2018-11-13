@@ -1,6 +1,6 @@
 {
   "name": "azure-function-search-index",
-  "description": "Azure function for search indexing",
+  "description": "Azure function for adding indexes to elastic search",
   "version": "1.0.0",
   "license": "MIT",
   "author": {

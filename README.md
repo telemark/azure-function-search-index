@@ -1,6 +1,6 @@
 # azure-function-search-index
 
-Azure function for search indexing
+Azure function for adding indexes to elastic search.
 
 ## License
 
