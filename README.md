@@ -18,12 +18,21 @@ You'll need a valid subscription and to setup the following resources
 
 The easiest way to make this function run is to setup an app service, configure the app and get the function from GitHub.
 
-Configuration for app
+- add function app
+  - Runtime stack -> Node
+
+Configuration for app (Application settings)
 ```
 SERVICEBUS_CONNECTION=Endpoint=sb://<your-servicebus-namespace-connection-string>
 SEARCH_SERVICE_URL=https://<your-search-service-api>
 SEARCH_SERVICE_JWT_KEY=search-service-api-jwt-key
 ```
+
+- add function
+  - Plattform features -> deployment center
+  - external
+  - add https to git
+  - branch master
 
 ## Setup development
 
