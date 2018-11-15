@@ -30,8 +30,7 @@ SEARCH_SERVICE_JWT_KEY=search-service-api-jwt-key
 
 - add function
   - Plattform features -> deployment center
-  - external
-  - add https to git
+  - github
   - branch master
 
 ## Setup development
