@@ -5,7 +5,7 @@
       "name": "mySbMsg",
       "type": "serviceBusTrigger",
       "direction": "in",
-      "queueName": "testqueue",
+      "queueName": "searchindexqueue",
       "connection": "SERVICEBUS_CONNECTION"
     }
   ]
