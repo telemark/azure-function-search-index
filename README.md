@@ -24,8 +24,7 @@ The easiest way to make this function run is to setup an app service, configure 
 Configuration for app (Application settings)
 ```
 SERVICEBUS_CONNECTION=Endpoint=sb://<your-servicebus-namespace-connection-string>
-SEARCH_SERVICE_URL=https://<your-search-service-api>
-SEARCH_SERVICE_JWT_KEY=search-service-api-jwt-key
+ELASTIC_HOST=your-elastic-search-host
 ```
 
 - add function
@@ -44,8 +43,7 @@ SEARCH_SERVICE_JWT_KEY=search-service-api-jwt-key
     "AzureWebJobsStorage": "<storage-accesskeys-key1-connectionstring>",
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "SERVICEBUS_CONNECTION": "<sb-sharedaccesspolicies-rootmanagesharedaccesskey-primaryconnectionstring>",
-    "SEARCH_SERVICE_URL": "<your-search-service-api>",
-    "SEARCH_SERVICE_JWT_KEY": "<search-service-api-jwt-key>"
+    "ELASTIC_HOST": "<your-elastic-search-host>"
   }
 }
 ```
