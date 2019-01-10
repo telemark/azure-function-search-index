@@ -53,6 +53,6 @@
     }
   },
   "dependencies": {
-    "elasticsearch": "15.2.0"
+    "elasticsearch": "15.3.0"
   }
 }
